@@ -1,0 +1,41 @@
+# Emacs
+*.elc
+*~
+\#*\#
+.\#*
+.dir-locals.el
+*.log
+
+# Backup files
+*.bak
+*.orig
+
+# Auto-generated files
+auto-save-list
+tramp
+
+# Package artifacts
+*.tar
+dist/
+
+# Testing
+.ert-runner
+ert-runner
+test-results/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+elpa/
+quelpa/
+
+# Local configuration
+.local/
+logs/
